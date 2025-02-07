@@ -1,4 +1,4 @@
-# 电子灵堂
+# 電子靈堂
 
 [在线演示 Demo](https://asoulfucker.github.io/Lingtang_OnInternet/)
 
