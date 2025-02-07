@@ -256,7 +256,7 @@
                     <button type="button" class="btn btn-default" id="OpenChampagne">开香槟🍾（开多了会卡，不要作死）</button>
                 </div>
                 <hr />
-                <h4>留下致辞</h4>
+
                 <div id="gitalk-container"></div>
             </div>
         </div>
@@ -277,16 +277,7 @@
             document.getElementById("loading_tips").innerHTML = "马上就好";
 
             /* Gitalk 评论区配置 */
-            var gitalk = new Gitalk({
-                clientID: 'be96a41462c84525e077',
-                clientSecret: '5be136bc48441c539d9203aa5c61dbadb42d3309',
-                repo: 'Lingtang_OnInternet',
-                owner: 'ASOULFucker',
-                admin: ['ASOULFucker'],
-                id: location.pathname,      // Ensure uniqueness and length less than 50
-                distractionFreeMode: false  // Facebook-like distraction free mode
-            });
-            gitalk.render('gitalk-container');
+
 
             document.getElementById("UpStream").onclick = function(){
                 $('#Dead_Picture').addClass("UpStream_animation");
